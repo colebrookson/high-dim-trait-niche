@@ -71,7 +71,7 @@ $$ \text{ln }  a_{rc} = \text{ln } a_0 + \bold{b}^\intercal \bold{v} + \frac{1}{
 
 They further use spectral decomposition theory to derive an approximation of the above equation 
 
-$$a_{rc} = a_1 \text{exp} \left[ V^* + F^* + \frac{1}{2} \sum^n_{i=1} \lambda_i (V_i - F_i)^2 \right]$$ where $n, a_1$ and $\lambda_i (i = 1,..,n)$ are constants, $V^*$ represent the vulnerability traits of the resource, and $F^*$ are the foraging traits of the consumer.  
+$$ a_{rc} = a_1 \text{exp} \left[ V^* + F^* + \frac{1}{2} \sum^n_{i=1} \lambda_i (V_i - F_i)^2 \right]$$ where $n, a_1$ and $\lambda_i (i = 1,..,n)$ are constants, $V^*$ represent the vulnerability traits of the resource, and $F^*$ are the foraging traits of the consumer.  
 
 
 
