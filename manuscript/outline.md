@@ -45,7 +45,7 @@ The authors then used simulated annealing to fit the model to data.
 
 To expand this into higher dimensions (i.e. higher numbers of traits), @williamsProbabilisticNicheModel2011 provided a slightly expanded version of the original formulation for $P(i,j,\theta)$:
 
-$$ P(i,j,\theta) = \alpha \prod^D_{d=1} exp \left(- \left|\frac{n_{d,j} - c_{d,i}}{r_{d,i}/2}\right|^e) \right) $$ for some number of dimensions, $D$.
+$$ P(i,j,\theta) = \alpha \prod^D_{d=1} exp \left(- \left|\frac{n_{d,j} - c_{d,i}}{r_{d,i}/2}\right|^e\right) $$ for some number of dimensions, $D$.
 
 #### Multidimensional Trophic Niche Spaces [@rossbergHowTrophicInteraction2010]
 
@@ -91,3 +91,13 @@ Take the two approaches, and compare them with different simulated datasets, inc
 #### NOTES
 
 Could do something like looking at "perfect" data and seeing how much we can get out of it then working backwards to the data we have
+
+#### Next Steps
+
+1. Use approach from first paper to simulate some data from one predator
+2. Take perfect data and use to compare to what Miram has for data
+3. Write code for both approaches to try and fit the values from each one
+4. Add some variability to perfect data
+5. Do the fit again
+6. Now do it with real data
+
