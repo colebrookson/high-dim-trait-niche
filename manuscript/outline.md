@@ -100,4 +100,3 @@ Could do something like looking at "perfect" data and seeing how much we can get
 4. Add some variability to perfect data
 5. Do the fit again
 6. Now do it with real data
-
